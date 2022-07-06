@@ -1,0 +1,84 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(253, 9, 70, 0.5);
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100px;
+}
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;;
+    padding: 3.7px;
+    border: solid 4px rgb(252, 4, 198);
+   
+}
+.Name {
+    color: white;
+}
+.username {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: #e6e7ec;
+    opacity: 0.8;
+    font-size: 19px;
+}
+
+.conteudo-principal{
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    margin: 19px auto;
+}
+
+i {
+    margin-right: 5px;
+    align-self: center;
+}
+.conteudo-principal .links{ 
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 15px 80px;
+    margin: 16px; 
+    border-radius: 7px;
+    background-color: rgb(252, 4, 198);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    width: 20%;
+    
+}
+.conteudo-principal a{
+    text-decoration: none;
+    color: white;
+    transition: background 400ms;
+}
+.conteudo-principal a:hover {
+    background-color: rgba(187, 10, 107, 0.938);
+}
+
+.coracao {
+    color: white;
+    font-size: 15px;
+}
+footer{
+    font-weight: 500;
+    font-size: 12px;
+    margin: 20px;
+    color: rgb(252, 4, 198);
+    opacity: 0.67;
+}
+
+footer:hover {
+    opacity: 1;
+}
+
+footer a{
+    color: #dd2782;
+}
